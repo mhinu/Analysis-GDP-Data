@@ -37,7 +37,7 @@ ggplot(product, aes(x=Product, y=Quantity)) +
 
 ggplot(data=iris, aes(x=Sepal.Length, 
                       y=Sepal.Width, color= Species, shape = Species))+
-  geom_point(size = 3, colors(pink))
+  geom_point(size = 3)
 
 ggplot(product, aes(x=UnitPrice, y=TotalPrice,
                     colour = Status , shape = Product)) +
